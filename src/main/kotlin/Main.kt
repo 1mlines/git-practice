@@ -4,6 +4,7 @@ fun main() {
     val userName = readlnOrNull() ?: ""
     println("${userName}님, 반갑습니다!")
     saveUserName(userName)
+    println("안녕하세요 아이비")
 }
 
 private fun saveUserName(userName: String) {
